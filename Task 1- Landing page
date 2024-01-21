@@ -1,0 +1,45 @@
+level 1
+task 1
+landing page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JEE Exam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightcyan;
+            margin: 0;
+            padding: 0; }
+          header {
+            color: burlywood;
+            padding: 20px;
+            text-align: center; }
+        h1 {
+            font-size: 36px;
+        }
+        section {
+            padding: 20px;
+        }
+    </style></head>
+<body>
+<h1><center><u>ENGINEERING EXAM PROVIDED BY NTA</u></center></h1>
+<h1><center>JOINT ENTRANCE EXAMINATION (JEE)</center></h1>
+
+<center><img src="NTA_logo.png" alt="LOGO" height="250" width="300" ></center><br>
+<br>
+<h1>Introduction</h1>
+<h2>The Ministry of Education (MoE), Government of India (GoI) has established the National Testing Agency (</h2>
+<h2>NTA) as an independent, autonomous, and self-sustained premier testing organization under the Societies </h2>
+<h2>Registration Act (1860) for conducting efficient, transparent, and international standardized tests in </h2>
+<h2>order to assess the competency of candidates for admission to premier higher education institutions with</h2>
+<h2> a mission to improve equity and quality in education by developing and administering research-based</h2> <h2>valid, reliable, efficient, transparent, fair and international level assessments.</h2></p><br>
+<h2>***Click on the link below to login to login</h2>
+<a href="csslogin.html">Login to THE OFFICIAL Page</a><br><br>
+<h2>***Click on the link to register for the exam:</h2>
+<a href="cssregister.html">REGISTER YOURSELF</a>
+<h2>***Know about the developers by clicking the link below</h2>
+<a href="CSS_aboutus.html">About Us</a>
+</body>
+</html>
+S
