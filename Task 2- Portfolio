@@ -1,0 +1,147 @@
+Level 1
+Task 2
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+body{
+	background-color: lightcyan;}
+header {
+  background-color: khaki;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+p {
+  font-size: 1.2em;
+  color: blueviolet;
+  font-size: 36px;
+}
+section {
+  padding: 20px;
+  display: flex;
+  font-size: 36px;
+}
+
+.about-image {
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 20%;
+}
+section h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+section.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.project {
+  width: 45%;
+  padding: 10px;
+  border: 1px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 0.8em;
+  font-size: 30px;
+
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 5px;
+
+}
+.download-button {
+  background-color: darkorchid;
+  color: rebeccapurple;
+  padding: 2px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+section.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: rebeccapurple;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+		<header>
+  <h1>Siddhi Sagar Shah-PORTFOLIO</h1>
+  <p>Second year aspiring computer science engineer.</p>
+</header>
+		<section>
+  <img src="my pic.jpg" alt="Siddhi" class="about-image"><br>
+  <p>I am a motivated second year student with good academic record and passionate for learning, having some good key competencies in various fields.</p>
+</section>
+		<section>
+  <h2>Skills</h2><br><br>
+  <ul><br>
+    <li>1.Languages like C, Python, HTML, CSS, Javascript, Java</li>
+    <li>2. Technical and analytical writing.</li>
+    <li>3.Communication skills and public speaking.</li>
+    <li>4.Critical thinking, disciplined and team player.</li>
+  </ul>
+</section>
+		<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project"><br>
+      <h3>NGO'S in Kolhapur District</h3>
+      <p>I created a website(front -end only) in second year i.e. the third semester of my engineering wherein I managed to collect the information of different types of NGO's like the child welfare, Women empowerment, AIDS patient, animal welfare, etc. I also displayed the information on my website region/taluka-wise which was never done on any other website. I also secured second rank along with a trophy for the same.</p>
+      <a href="project.html">View More</a>
+    </div>
+    </div>
+</section>
+		<section>
+  <h2>Resume</h2>
+  <a href="Resume.pdf" class="download-button">Resume</a>
+</section>
+		<section>
+  <h2>Contact</h2>
+  <ul><br><br>
+    <li><a href="mailto:[Your Email]">Email: siddhishah2707@gmail.com</a></li>
+  
+    </ul>
+</section>
+<footer>
+  <p>&copy;All rights reserved. © [Siddhi Shah] 2024</p>
+</footer>
+	</body>
+	</html>
